@@ -46,6 +46,11 @@ lecture. Try to understand all parts of the code. What are the
 different classes and fields used for? How does the add method work
 exactly?
 
+Ans 1) There are two classes 1) Node, 2) LinkedList, Node is for data + referance. linkedlist to build the list.
+add method: 1. check the node , 2. in case of empty call the constructor of node and add first data. initialize the first = node;
+in case of is it not empty: create local variable and let it to be equal the first node.in case of local variable current not equal zero 
+we but it equal next node. then add new node.
+
 Once you understand how the code for implementing the add operation
 works, you have completed this exercise. :-)
 
@@ -57,6 +62,12 @@ value. This can be done iteratively, i.e., by starting at the first
 node and checking each node until we find the element or reach
 null. If we find the element the function should return the index
 otherwise it should return -1.
+
+// 1.we create variable to be equal first node.
+//2. we check if this variable not equal zero.
+// 3. check the local integer if it's equal input integer.
+// 4. Next variable = current local veriable
+
 
 #### Exercise 3: Get operation
 

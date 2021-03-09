@@ -92,4 +92,32 @@ public class LinkedList {
         builder.append(")");
         return builder.toString();
     }
-}
+
+    public int search(int num) {
+        int index = 0;
+        int notFound = -1;
+        // 1.we create variable to be equal first node.
+        //2. we check if this variable not equal zero.
+        // 3. check the local integer if it equal input integer.
+        Node current = first;
+        Node next = current.next;
+        while (next != null) {
+            if (current.elem == num) {
+           return index;
+            }
+            current = next;
+            next = next.next;
+            index++;
+        }
+        return notFound;
+    }
+    }
+
+
+
+
+
+
+/*
+ git -C "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core" remote set-url origin https://github.com/Homebrew/homebrew-core
+ */
