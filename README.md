@@ -77,6 +77,7 @@ want to get access to them. In this assignment you will implement a
 position in the chain of nodes). This method can be implemented by
 iterating through the list and returning the element when you have
 reached the index given as the parameter.
+// We did Get Operation method (It's done)
 
 #### Exercise 4: Size operation
 
@@ -104,7 +105,7 @@ structure.
 #### Discussion
 
 What are the advantages/disadvantages for a linked list in comparison to an array in terms of...
-1. ...accessing an element (`get` operation)?
+1. ...accessing an element (`get` operation)? 
 1. ...adding an element?
 1. ...removing an element?
 1. ...memory usage?
