@@ -111,7 +111,28 @@ public class LinkedList {
         }
         return notFound;
     }
+
+    public int getIndex(int num) {
+        int index = 0;
+        Node current = first;
+        Node next = current.next;
+
+        for (int i = 0; i< num; i++) {
+            if (next == null){
+                return -1;
+            }
+            current = next;
+            next = next.next;
+        }
+        return current.elem;
     }
+
+
+    }
+
+
+
+
 
 
 

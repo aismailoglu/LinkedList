@@ -10,6 +10,7 @@ public class Main {
         List.add(7);
         List.add(8);
         List.add(55);
-        System.out.println(List.search(99));
+        System.out.println(List.search(5));
+        System.out.println(List.getIndex(99));
     }
 }
